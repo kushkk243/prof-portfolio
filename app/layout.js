@@ -2,6 +2,7 @@ import localFont from "next/font/local";
 import { Afacad } from "next/font/google";
 import "./globals.css";
 import { injectSpeedInsights } from "@vercel/speed-insights/*";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -26,9 +27,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${afacad.className} antialiased`}
-      >
+        className={`${afacad.className} antialiased`}>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
