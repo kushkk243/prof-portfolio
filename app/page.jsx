@@ -174,7 +174,7 @@ export default function Home() {
             }
           </div>
         </div>
-        <div className="w-1/12 place-content-start pr-12 justify-items-end">
+        <div className="w-1/12 place-content-start pr-12">
           <div className="-translate-y-14  translate-x-10 origin-bottom-left rotate-90 font-black  text-7xl right-0 leading-none text-nowrap p-0 ">
             TECHNICAL LANGUAGES
           </div>
