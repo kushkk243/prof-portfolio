@@ -1,7 +1,6 @@
 import localFont from "next/font/local";
 import { Afacad } from "next/font/google";
 import "./globals.css";
-import { injectSpeedInsights } from "@vercel/speed-insights/*";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
